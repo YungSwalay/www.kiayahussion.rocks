@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<title>Merry Christmas Kiaya!</title>
 	<link rel="stylesheet" href="index.css" type="text/css">
+	<link rel="stylesheet" href="tree.css" type="text/css">
 	<link rel="stylesheet" href="lightrope.css" type="text/css">
 </head>
 
@@ -65,7 +66,9 @@
 			<h3>Cousin Charlie</h3>
 		</div>
 		<div class="card card--front back" onclick="openCard();">
-			<img src="">
+			<div class="frame">
+				<canvas id="tree"></canvas>
+			</div>
 		</div>
 		<div class="card card--front" onclick="openCard();">
 			<h2>Merry Christmas<br>Kiaya!</h2>
@@ -81,5 +84,6 @@
 </body>
 
 <script src="index.js"></script>
+<script src="tree.js"></script>
 
 </html>
